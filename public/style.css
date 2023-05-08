@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+.mainContainer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  margin: 50px auto;
+}
+
+.panel {
+  border: 1px solid #333333;
+  /* padding: 25px; */
+  background-color: #dcdcdc;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-label {
+  margin: 15px;
+}
+
+.form-control {
+  width: 60%;
+  border: 1px solid #333333;
+  margin: 15px;
+}
+
+.notes {
+  color: #e99f0c;
+  font-style: italic;
+}
